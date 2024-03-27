@@ -1,0 +1,40 @@
+*{
+box-sizing: border-box;
+}
+
+
+nav {
+  color: midnightblue;
+  border: 2px solid black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: flex-end;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+  background-image: url(https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFuZmZ8ZW58MHx8MHx8fDA%3D);
+  background-repeat: no-repeat;
+  background-position: 0;
+  width: 100vw;
+
+  
+}
+
+.pro {
+  justify-content: flex-start;
+  display: flex;
+}
+
+footer {
+  width: auto;
+  height: 25px;
+  background-color: lightslategray;
+  color: midnightblue;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 50px; 
+
+}
+
