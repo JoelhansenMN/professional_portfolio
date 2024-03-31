@@ -43,8 +43,8 @@ header {
 }
 
 img {
-  height: 600px;
-  width: 400px;
+  height: 500px;
+  width: 350px;
   border: 2px solid black;
   padding: 5px;
   gap: 20px
@@ -63,7 +63,8 @@ img {
   height: 500px;
   text-align: center; 
   border: 2px solid black;
-  padding: 20px;  
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
   background-image: url(https://images.unsplash.com/photo-1550594427-417e0a74911f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,30 +72,45 @@ img {
 
 }
 
+aside{
+ display: flex;
+  align-items: row;
+}
+
 .work {
-  width: auto;
+  width: 33%;
   height: 400px;
   text-align: center; 
   border: 2px solid black;
   padding: 20px; 
+  background-color: rgba(127, 166, 226, 0.445);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .resume {
-  width: 50%;
+  width: 33%;
   height: 400px;
   text-align: center; 
   border: 2px solid black;
   padding: 20px;
   background-color: rgba(127, 166, 226, 0.445);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .contact{
-  width: 50%;
+  width: 33%;
   height: 400px;
   text-align: center; 
   border: 2px solid black;
   padding: 20px; 
   background-color: rgba(127, 166, 226, 0.445);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.contact div a {
+text-decoration: none;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer {
